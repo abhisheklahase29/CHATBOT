@@ -1,0 +1,49 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi there","hii","heyy","Oii","Helloo","hello","How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+   "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+   "context": [""]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+   "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+   "context": [""]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure"],
+   "context": [""]
+  },
+  {"tag": "noanswer",
+   "patterns": [],
+   "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+   "context": [""]
+  },
+
+  {"tag": "name",
+    "patterns": ["what is your name?","what should I call you?"],
+    "responses": ["William Shakespeare Said “What's in a name?, Well I'm BUGBOT","Hey!I'm BUGBOT"],
+    "context": [""]
+   },
+    {"tag": "about",
+    "patterns": ["how you doing?","how are you"],
+    "responses": ["Thanks For Asking!How can I help you?"],
+    "context": [""]
+   },
+   {"tag":"Contact",
+    "patterns":["who buid you?","who is your Owner","who created you"],
+    "responses":["Mr. Abhishek Lahase, He is Software Developer","A Developer name Abhishek Lahase","Created By Mr.Abhishek Lahase"],
+    "context":[""]
+   },
+   {"tag":"help",
+    "patterns":["What can You Do","What is your Work","What type of Works you can do"],
+    "responses":["Well At this time, I can't do many things but My Next Version Can Surprise YOU :) "],
+    "context":[]
+
+   }
+]
+
+}
+
+
+ 
